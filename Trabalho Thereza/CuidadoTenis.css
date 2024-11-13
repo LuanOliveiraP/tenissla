@@ -1,0 +1,65 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: radial-gradient(#686363, #141414);
+    color: #fff; 
+  }
+  
+  header {
+    position: top;
+  width: 7vw;
+  left: 80%;
+  transform: translateX(-50%);
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 600px;
+  gap: 10%;
+
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .tenis-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 20px;
+  }
+  
+  .tenis-item {
+    text-align: center;
+  }
+  
+  .tenis-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .ajuda-section {
+    padding: 20px;
+    background-color: #1d5a1d; 
+    margin: 20px auto;
+    border-radius: 8px;
+    color: #fff; 
+  }
+  
+  .ajuda-section h1 {
+    text-align: center;
+  }
+  
+ 
